@@ -1,5 +1,6 @@
 html{scroll-behavior:smooth}
 
+
 .container {
   width: 90%;
   margin: auto;
@@ -24,31 +25,42 @@ main h3 {
 .header--main {
   display: flex;
   margin: 0;
+  padding: 0;
   justify-content: space-between;
   background-color: rgb(34, 32, 32);
   position: fixed;
-  width: 97%;
   top: 0;
   left: 0;
+  z-index: 100;
+  width: 100%;
+  height: 90px;
+
 }
 
 .my-skills {
   display: flex;
-  flex-direction: row;
-  object-fit: contain;
-  width: 120px;
-  height: 100px;
   justify-content: center;
+  width:  100px;
+  height: 100px;
+  object-fit: scale-down;
   margin: auto;
 }
 
+.my-skills .react-logo {
+  width: 98px;
+  height: 90px;
+  object-fit: scale-down;
+  margin-left: 14px;
+  margin-top: 5px;
+}
+
 .header--main ul {
-  display: flex;
   color: white;
 }
 
 .header--main p {
   font-size: 1.8rem;
+  margin-left: 30px;
   cursor: pointer;
   color: white;
   background-image: linear-gradient(90deg, rgb(141, 8, 243), rgb(5, 222, 255));
@@ -58,8 +70,8 @@ main h3 {
 }
 
 .header--main > nav {
+  padding: 30px;
   display: flex;
-  justify-content: center;
   align-items: center;
   text-align: center;
   list-style: none;
@@ -68,8 +80,7 @@ main h3 {
 }
 
 .header--main > nav > a {
-  margin-left: 30px;
-  cursor: pointer;
+  margin : 20px;
   text-decoration: none;
   color: white;
 }
@@ -102,21 +113,76 @@ main .greeting--text {
   text-align: center;
 }
 
-.about {
-  margin-top: 150px;
+.about-section {
   font-size: 2rem;
 }
 
-.work-examples-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 50px;
-  margin-top: 30px;
+.grid-container {
+  position: relative;
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 30px;
+  grid-gap: 20px;
 }
 
-.work-examples-container li {
-  font-size: 20px;
+.grid-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.grid-item {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  position: relative;
+  transition: opacity 0.7s;
+}
+
+.middle {
+  transition: .0.7s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.grid-image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.grid-item:hover .grid-image{
+  opacity: 0.2;
+}
+
+.grid-item:hover .middle {
+  opacity: 1;
+}
+
+.middle button {
+  cursor: pointer;
+  border: none;
+  margin-left: 30px;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.name-of-project {
+  margin-bottom: 50px;
+  font-size: 30px;
+}
+
+.text {
+  background-color: #c47713;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  padding: 16px 32px;
 }
 
 .url-to-my-work {
@@ -125,9 +191,5 @@ main .greeting--text {
   background-clip: text;
   color: transparent;
   font-weight: 700;
-}
-
-.stock--image {
-  width: 50%;
 }
 
