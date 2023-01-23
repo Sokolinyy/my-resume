@@ -1,0 +1,133 @@
+html{scroll-behavior:smooth}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+body {
+  height: 100vh;
+  background-color: rgb(21, 21, 21);
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+main h2 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+main h3 {
+  text-align: center;
+}
+
+.header--main {
+  display: flex;
+  margin: 0;
+  justify-content: space-between;
+  background-color: rgb(34, 32, 32);
+  position: fixed;
+  width: 97%;
+  top: 0;
+  left: 0;
+}
+
+.my-skills {
+  display: flex;
+  flex-direction: row;
+  object-fit: contain;
+  width: 120px;
+  height: 100px;
+  justify-content: center;
+  margin: auto;
+}
+
+.header--main ul {
+  display: flex;
+  color: white;
+}
+
+.header--main p {
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: white;
+  background-image: linear-gradient(90deg, rgb(141, 8, 243), rgb(5, 222, 255));
+  background-clip: text;
+  color: transparent;
+  font-weight: 700;
+}
+
+.header--main > nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  list-style: none;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.header--main > nav > a {
+  margin-left: 30px;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+
+main {
+  width: 100%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+main .greeting {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+main .greeting--image {
+  object-fit: contain;
+  object-position: right;
+  width: 50%;
+}
+
+main .greeting--text {
+  color: white;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.about-me {
+  text-align: center;
+}
+
+.about {
+  margin-top: 150px;
+  font-size: 2rem;
+}
+
+.work-examples-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
+.work-examples-container li {
+  font-size: 20px;
+}
+
+.url-to-my-work {
+  text-decoration: none;
+  background-image: linear-gradient(50deg, rgb(230, 0, 255), rgb(0, 213, 255));
+  background-clip: text;
+  color: transparent;
+  font-weight: 700;
+}
+
+.stock--image {
+  width: 50%;
+}
+
