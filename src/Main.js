@@ -45,15 +45,13 @@ const Main = () => {
             <img src={girl} className="grid-image"></img>
             <div className="middle">
               <h3 className="name-of-project">Name of project</h3>
-              <a href="">
-                <button className="text">URL</button>
-              </a>
+                <a href="">
+                  <button className="text">URL</button>
+                </a>
 
-              <a href="" target="_blank">
-                <button className="text">
-                  GitHub link
-                </button>
-              </a>
+                <a href="" target="_blank">
+                  <button className="text">GitHub link</button>
+                </a>
             </div>
           </div>
 
