@@ -5,7 +5,7 @@ const Header = () => {
       <header>
           <ul className='header--main'>
             <p>RESUME</p>
-            <nav role="navigation">
+            <nav role="navigation" className='nav-bar'>
               <a 
                 href='#about-section'>
                   <li>About</li>
@@ -22,6 +22,11 @@ const Header = () => {
                 href='#a-little-game'>
                   <li>A little game</li>
               </a>
+            <div className='hamburger-menu'>
+              <div className='menu'></div>
+              <div className='menu'></div>
+              <div className='menu'></div>
+            </div>
             </nav>
           </ul>
       </header>

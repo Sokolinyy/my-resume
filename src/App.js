@@ -1,5 +1,9 @@
 import React from 'react'
-import "./styles.css"
+
+import "./styles/desktop-styles.css"
+import "./styles/tablet-styles.css"
+import "./styles/mobile-styles.css"
+
 import Header from './Header'
 import Main from './Main'
 

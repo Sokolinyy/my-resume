@@ -21,15 +21,12 @@ const Main = () => {
         <p className="greeting--text">
           Hello, <br /> my <br /> name <br /> is <br /> Vasilii
         </p>
-
         <img src={catImage} className="greeting--image" />
       </section>
-
       <div className="my-skills">
         <img src={cssHtmlJsLogo}></img>
         <img className="react-logo" src={reactLogo}></img>
       </div>
-
       <section className="about-section" id="about-section">
         <h2 className="about-me">About Me</h2>
         <p>
@@ -38,102 +35,116 @@ const Main = () => {
       </section>
 
       <section className="my-works" id="my-works-section">
-        <h2>My Works</h2>
-
+        <h2>My Works: </h2>
         <div class="grid-container">
           <div className="grid-item">
+            <h3 className="project-name-mobile">Project name</h3>
             <img src={girl} className="grid-image"></img>
             <div className="middle">
               <h3 className="name-of-project">Name of project</h3>
                 <a href="">
-                  <button className="text">URL</button>
+                  <button className="link-to-site">URL</button>
                 </a>
-
                 <a href="" target="_blank">
-                  <button className="text">GitHub link</button>
+                  <button className="link-to-github">GitHub link</button>
                 </a>
             </div>
-          </div>
-
-          <div className="grid-item">
-            <img src={card} className="grid-image"></img>
-            <div className="middle">
-              <h3 className="name-of-project">Name of project</h3>
-              <a href="">
-                <button className="text">URL</button>
-              </a>
-
-              <a href="" target="_blank">
-                <button className="text">
-                  GitHub link
-                </button>
-              </a>
+            <div className="button-mobile">
+              <button className="url-to-site-mobile">Link to site</button>
+              <button className="url-to-github-mobile">Link to GitHub</button>
             </div>
           </div>
 
           <div className="grid-item">
-            <img src={rating} className="grid-image"></img>
+            <h3 className="project-name-mobile">Project name</h3>
+            <img src={girl} className="grid-image"></img>
             <div className="middle">
               <h3 className="name-of-project">Name of project</h3>
-              <a href="">
-                <button className="text">URL</button>
-              </a>
-
-              <a href="" target="_blank">
-                <button className="text">
-                  GitHub link
-                </button>
-              </a>
+                <a href="">
+                  <button className="link-to-site">URL</button>
+                </a>
+                <a href="" target="_blank">
+                  <button className="link-to-github">GitHub link</button>
+                </a>
+            </div>
+            <div className="button-mobile">
+              <button className="url-to-site-mobile">Link to site</button>
+              <button className="url-to-github-mobile">Link to GitHub</button>
             </div>
           </div>
 
           <div className="grid-item">
-            <img src={suvs} className="grid-image"></img>
+            <h3 className="project-name-mobile">Project name</h3>
+            <img src={girl} className="grid-image"></img>
             <div className="middle">
               <h3 className="name-of-project">Name of project</h3>
-              <a href="">
-                <button className="text">URL</button>
-              </a>
-
-              <a href="" target="_blank">
-                <button className="text">
-                  GitHub link
-                </button>
-              </a>
+                <a href="">
+                  <button className="link-to-site">URL</button>
+                </a>
+                <a href="" target="_blank">
+                  <button className="link-to-github">GitHub link</button>
+                </a>
+            </div>
+            <div className="button-mobile">
+              <button className="url-to-site-mobile">Link to site</button>
+              <button className="url-to-github-mobile">Link to GitHub</button>
             </div>
           </div>
 
           <div className="grid-item">
-            <img src={faq} className="grid-image"></img>
+            <h3 className="project-name-mobile">Project name</h3>
+            <img src={girl} className="grid-image"></img>
             <div className="middle">
               <h3 className="name-of-project">Name of project</h3>
-              <a href="">
-                <button className="text">URL</button>
-              </a>
-
-              <a href="" target="_blank">
-                <button className="text">
-                  GitHub link
-                </button>
-              </a>
+                <a href="">
+                  <button className="link-to-site">URL</button>
+                </a>
+                <a href="" target="_blank">
+                  <button className="link-to-github">GitHub link</button>
+                </a>
+            </div>
+            <div className="button-mobile">
+              <button className="url-to-site-mobile">Link to site</button>
+              <button className="url-to-github-mobile">Link to GitHub</button>
             </div>
           </div>
 
           <div className="grid-item">
-            <img src={remote} className="grid-image"></img>
+            <h3 className="project-name-mobile">Project name</h3>
+            <img src={girl} className="grid-image"></img>
             <div className="middle">
               <h3 className="name-of-project">Name of project</h3>
-              <a href="">
-                <button className="text">URL</button>
-              </a>
-
-              <a href="" target="_blank">
-                <button className="text">
-                  GitHub link
-                </button>
-              </a>
+                <a href="">
+                  <button className="link-to-site">URL</button>
+                </a>
+                <a href="" target="_blank">
+                  <button className="link-to-github">GitHub link</button>
+                </a>
+            </div>
+            <div className="button-mobile">
+              <button className="url-to-site-mobile">Link to site</button>
+              <button className="url-to-github-mobile">Link to GitHub</button>
             </div>
           </div>
+
+          <div className="grid-item">
+            <h3 className="project-name-mobile">Project name</h3>
+            <img src={girl} className="grid-image"></img>
+            <div className="middle">
+              <h3 className="name-of-project">Name of project</h3>
+                <a href="">
+                  <button className="link-to-site">URL</button>
+                </a>
+                <a href="" target="_blank">
+                  <button className="link-to-github">GitHub link</button>
+                </a>
+            </div>
+            <div className="button-mobile">
+              <button className="url-to-site-mobile">Link to site</button>
+              <button className="url-to-github-mobile">Link to GitHub</button>
+            </div>
+          </div>
+
         </div>
       </section>
 
