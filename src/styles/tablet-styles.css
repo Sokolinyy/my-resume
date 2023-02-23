@@ -1,4 +1,8 @@
 @media screen and (max-width: 1000px) {
+  #overlay {
+    display: none;
+  }
+
   .container {
     width: 90%;
     margin: auto;
@@ -9,15 +13,6 @@
     background-color: rgb(21, 21, 21);
     font-family: 'Montserrat', sans-serif;
     color: white;
-  }
-  
-  main h2 {
-    text-align: center;
-    font-size: 3rem;
-  }
-  
-  main h3 {
-    text-align: center;
   }
   
   .header--main {
@@ -84,9 +79,19 @@
   }
   
   main {
-    width: 100%;
+    width: 90%;
     margin: auto;
     margin-top: 50px;
+  }
+
+    
+  main h2 {
+    text-align: center;
+    font-size: 3rem;
+  }
+  
+  main h3 {
+    text-align: center;
   }
   
   main .greeting {
@@ -146,6 +151,29 @@
     text-align: center;
     width: 300px;
   }
+
+  .middle button {
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+    transition: transform 0.15s;
+    white-space: nowrap;
+    background-color: black;
+    color: white;
+  }
+
+  .link-to-site:hover {
+    transform: scale(1.05) rotate(-1.5deg);
+  }
+
+  .link-to-github:hover {
+    transform: scale(1.05) rotate(+1.5deg);
+  }
   
   .grid-image {
     opacity: 1;
@@ -163,21 +191,10 @@
   .grid-item:hover .middle {
     opacity: 1;
   }
-
-  .middle h3 {
-    font-size: 20px;
-  }
-
-  .middle button {
-    cursor: pointer;
-    border: none;
-    margin-left: 10px;
-    border-radius: 10px;
-  }
   
   .name-of-project {
     margin-bottom: 50px;
-    font-size: 30px;
+    font-size: 20px;
   }
   
   .text {
