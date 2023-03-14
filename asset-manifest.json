@@ -1,18 +1,17 @@
 {
   "files": {
-    "main.css": "/my-resume/static/css/main.b6ac7337.css",
-    "main.js": "/my-resume/static/js/main.85600099.js",
-    "static/media/white-cat-lies-woman-s-knees.jpg": "/my-resume/static/media/white-cat-lies-woman-s-knees.2566116e640e09f51de9.jpg",
+    "main.css": "/my-resume/static/css/main.c237db31.css",
+    "main.js": "/my-resume/static/js/main.27a4a032.js",
+    "static/media/matrix-g7eee74277_1920.jpg": "/my-resume/static/media/matrix-g7eee74277_1920.36fd1b21350274a1896c.jpg",
     "static/media/girl.jpg": "/my-resume/static/media/girl.343fe65f67fdff338b65.jpg",
-    "static/media/React-icon.svg.png": "/my-resume/static/media/React-icon.svg.702a26a65699561606d2.png",
     "static/media/Download Light Icon_ffffff.png": "/my-resume/static/media/Download Light Icon_ffffff.6eb1ee5d75432fe2dddf.png",
     "static/media/GitHub-Logo.png": "/my-resume/static/media/GitHub-Logo.ae9a5f293bc5c9187354.png",
     "index.html": "/my-resume/index.html",
-    "main.b6ac7337.css.map": "/my-resume/static/css/main.b6ac7337.css.map",
-    "main.85600099.js.map": "/my-resume/static/js/main.85600099.js.map"
+    "main.c237db31.css.map": "/my-resume/static/css/main.c237db31.css.map",
+    "main.27a4a032.js.map": "/my-resume/static/js/main.27a4a032.js.map"
   },
   "entrypoints": [
-    "static/css/main.b6ac7337.css",
-    "static/js/main.85600099.js"
+    "static/css/main.c237db31.css",
+    "static/js/main.27a4a032.js"
   ]
 }
