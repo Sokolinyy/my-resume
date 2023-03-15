@@ -1,11 +1,26 @@
+.about-section {
+  font-size: 1.6rem;
+  text-align: left;
+}
+
 @media screen and (max-width: 1000px) {
+
+  .logo {
+    background-image: linear-gradient(90deg, rgb(104, 224, 98), rgb(48, 164, 50)) !important;
+    background-clip: text;
+    color: transparent;
+    margin: 10px;
+  }
+
   #overlay {
     display: none;
   }
 
   .container {
-    width: 90%;
-    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
   }
   
   body {
@@ -27,25 +42,8 @@
     z-index: 100;
     width: 100%;
     height: 90px;
-  
   }
-  
-  .my-skills {
-    display: flex;
-    justify-content: center;
-    width:  100px;
-    height: 100px;
-    object-fit: scale-down;
-    margin: auto;
-  }
-  
-  .my-skills .react-logo {
-    width: 98px;
-    height: 90px;
-    object-fit: scale-down;
-    margin-left: 14px;
-    margin-top: 5px;
-  }
+
   
   .header--main ul {
     color: white;
@@ -79,15 +77,16 @@
   }
   
   main {
-    width: 90%;
-    margin: auto;
     margin-top: 50px;
+    width: 100vh;
+    overflow: hidden;
   }
 
     
   main h2 {
     text-align: center;
     font-size: 3rem;
+    color: rgb(26, 177, 54);
   }
   
   main h3 {
@@ -95,38 +94,28 @@
   }
   
   main .greeting {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-  }
-  
-  main .greeting--image {
-    object-fit: contain;
-    object-position: right;
-    width: 50%;
+    background-image: url('../images/matrix-g7eee74277_1920.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
   }
   
   main .greeting--text {
-    color: white;
-    font-size: 4rem;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
+    padding: 10px 30px;
+    background-color: rgba(0, 0, 0, 0.8);
+    font-size: 3.5rem;
   }
-  
-  .about-me {
-    text-align: center;
-  }
-  
-  .about-section {
-    font-size: 2rem;
-  }
-  
-  .grid-container {
-    position: relative;
-    display: grid;
-    grid-template-columns: auto auto;
+
+  .about-section p {
+    font-size: 1.6rem;
+    text-align: left;
     padding: 30px;
-    grid-gap: 20px;
-  }
+  } 
   
   .grid-container img {
     width: 100%;
@@ -134,10 +123,73 @@
     object-fit: cover;
   }
   
-  .grid-item {
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    position: relative;
-    transition: opacity 0.7s;
+  .work-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin: 50px;
+    flex: 1;
+  }
+
+  .project img {
+    width: 100%;
+  }
+
+  .project-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex: 1;
+  }
+
+  .project-description p { 
+    width: 80%;
+    font-size: 20px;
+  }
+
+  .project-description h2 {
+    margin-top: 0px;
+    font-size: 33px;
+  }
+
+  .project-button {
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+  }
+
+  .project-button button {
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    padding: 7px 30px;
+    font-weight: 700;
+    border: none;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+
+  .project-button button:hover {
+    opacity: 0.7;
+  }
+
+  .project-button img {
+    margin: 0 10px;
+    width: 30px;
+    height: 30px;
   }
   
   .middle {
@@ -166,14 +218,6 @@
     background-color: black;
     color: white;
   }
-
-  .link-to-site:hover {
-    transform: scale(1.05) rotate(-1.5deg);
-  }
-
-  .link-to-github:hover {
-    transform: scale(1.05) rotate(+1.5deg);
-  }
   
   .grid-image {
     opacity: 1;
@@ -182,14 +226,6 @@
     height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
-  }
-  
-  .grid-item:hover .grid-image{
-    opacity: 0.2;
-  }
-  
-  .grid-item:hover .middle {
-    opacity: 1;
   }
   
   .name-of-project {
@@ -218,5 +254,109 @@
 
   .button-mobile {
     display: none;
+  }
+
+  .stop {
+    display: block;
+    font-size: 3rem;
+    background-image: linear-gradient(90deg, rgb(4, 0, 255) 40%, rgb(253, 0, 0) 50%);
+    font-weight: 700;
+    background-clip: text;
+    color: transparent;
+    text-shadow: none !important;
+  }
+
+  .gifNeo {
+    width: 80%;
+  }
+
+  .contact h2 {
+    text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000,
+    1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
+  }
+
+  .contact-part {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    height: 90vh;
+    width: 70vw;
+  }
+
+  .contact-links-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact-links-container li {
+    font-size: 2rem;
+    list-style: none;
+    margin-top: 20px;
+  }
+
+  .contact-links-container a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Amatic SC', cursive;
+    text-decoration: none;
+    color: white;
+    font-size: 3rem;
+    font-weight: 700;
+  }
+
+  .contact-links-container img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .contact-links-container ul {
+    padding: 0;
+  }
+
+  .contact-form-container h3 {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+    text-shadow: none;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+  }
+
+  #name {
+    margin: 0;
+  }
+
+  #name, #email, #message {
+    padding: 20px 40px;
+    width: 230px;
+    background-color: #3d3d3d;
+    border: none;
+    margin-top: 20px;
+    border-radius: 10px;
+    color: white;
+  }
+
+  .send-button {
+    margin-top: 20px;
+    font-size: 25px;
+    padding: 10px 70px 10px 70px;
+    font-weight: 700;
+    border-radius: 10px;
+    transition: transform 0.15s;
+    white-space: nowrap;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
   }
 }
