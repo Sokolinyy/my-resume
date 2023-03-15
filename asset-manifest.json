@@ -1,21 +1,25 @@
 {
   "files": {
-    "main.css": "/my-resume/static/css/main.2bd0a0ee.css",
-    "main.js": "/my-resume/static/js/main.eca66baa.js",
+    "main.css": "/my-resume/static/css/main.f1db20b9.css",
+    "main.js": "/my-resume/static/js/main.20688f0e.js",
     "static/media/matrix-g7eee74277_1920.jpg": "/my-resume/static/media/matrix-g7eee74277_1920.36fd1b21350274a1896c.jpg",
     "static/media/dualsense.png": "/my-resume/static/media/dualsense.8fc823150c0eb5736b10.png",
     "static/media/tvSearch.png": "/my-resume/static/media/tvSearch.96d3337ff72b8505fa14.png",
     "static/media/multi-step-form.png": "/my-resume/static/media/multi-step-form.4d4e5518cc59215b8147.png",
-    "static/media/Download Light Icon_ffffff.png": "/my-resume/static/media/Download Light Icon_ffffff.6eb1ee5d75432fe2dddf.png",
-    "static/media/GitHub-Logo.png": "/my-resume/static/media/GitHub-Logo.ae9a5f293bc5c9187354.png",
+    "static/media/Matrix-MZ4P.ttf": "/my-resume/static/media/Matrix-MZ4P.73260684986062376373.ttf",
+    "static/media/ARCADE.TTF": "/my-resume/static/media/ARCADE.0908c501a4d2c9da77ed.TTF",
+    "static/media/Rockstar-ExtraBold.otf": "/my-resume/static/media/Rockstar-ExtraBold.704a10ce14af026a17d3.otf",
     "static/media/github-svgrepo-com.svg": "/my-resume/static/media/github-svgrepo-com.01b70d35c719618d571cc9c0a3e8fbd6.svg",
     "static/media/live-svgrepo-com.svg": "/my-resume/static/media/live-svgrepo-com.796354738b6ac2d158103932b885fefc.svg",
+    "static/media/linkedin-svgrepo-com.svg": "/my-resume/static/media/linkedin-svgrepo-com.8cf1207045f1088ddc77b7062d88e308.svg",
     "index.html": "/my-resume/index.html",
-    "main.2bd0a0ee.css.map": "/my-resume/static/css/main.2bd0a0ee.css.map",
-    "main.eca66baa.js.map": "/my-resume/static/js/main.eca66baa.js.map"
+    "static/media/download-file-svgrepo-com.svg": "/my-resume/static/media/download-file-svgrepo-com.02e611c4e73910e817d787c7eca819c8.svg",
+    "static/media/email-svgrepo-com .svg": "/my-resume/static/media/email-svgrepo-com .03261afe93c6b5ea16874ea6bc138d71.svg",
+    "main.f1db20b9.css.map": "/my-resume/static/css/main.f1db20b9.css.map",
+    "main.20688f0e.js.map": "/my-resume/static/js/main.20688f0e.js.map"
   },
   "entrypoints": [
-    "static/css/main.2bd0a0ee.css",
-    "static/js/main.eca66baa.js"
+    "static/css/main.f1db20b9.css",
+    "static/js/main.20688f0e.js"
   ]
 }
