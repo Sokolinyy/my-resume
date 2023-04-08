@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/my-resume/static/css/main.62051928.css",
-    "main.js": "/my-resume/static/js/main.537c84c7.js",
+    "main.css": "/my-resume/static/css/main.89f85916.css",
+    "main.js": "/my-resume/static/js/main.5d84c982.js",
     "static/media/matrix-g7eee74277_1920.jpg": "/my-resume/static/media/matrix-g7eee74277_1920.36fd1b21350274a1896c.jpg",
     "static/media/dualsense.png": "/my-resume/static/media/dualsense.8fc823150c0eb5736b10.png",
     "static/media/tvSearch.png": "/my-resume/static/media/tvSearch.96d3337ff72b8505fa14.png",
+    "static/media/note-app.png": "/my-resume/static/media/note-app.81dad2af02165e27381b.png",
     "static/media/multi-step-form.png": "/my-resume/static/media/multi-step-form.4d4e5518cc59215b8147.png",
     "static/media/Rockstar-ExtraBold.otf": "/my-resume/static/media/Rockstar-ExtraBold.704a10ce14af026a17d3.otf",
     "static/media/github-svgrepo-com.svg": "/my-resume/static/media/github-svgrepo-com.01b70d35c719618d571cc9c0a3e8fbd6.svg",
@@ -15,11 +16,11 @@
     "static/media/download-file-svgrepo-com.svg": "/my-resume/static/media/download-file-svgrepo-com.02e611c4e73910e817d787c7eca819c8.svg",
     "static/media/email-svgrepo-com .svg": "/my-resume/static/media/email-svgrepo-com .03261afe93c6b5ea16874ea6bc138d71.svg",
     "static/media/arrow-down-svgrepo-com.svg": "/my-resume/static/media/arrow-down-svgrepo-com.4d54cb66692ea33497ae0172e6644124.svg",
-    "main.62051928.css.map": "/my-resume/static/css/main.62051928.css.map",
-    "main.537c84c7.js.map": "/my-resume/static/js/main.537c84c7.js.map"
+    "main.89f85916.css.map": "/my-resume/static/css/main.89f85916.css.map",
+    "main.5d84c982.js.map": "/my-resume/static/js/main.5d84c982.js.map"
   },
   "entrypoints": [
-    "static/css/main.62051928.css",
-    "static/js/main.537c84c7.js"
+    "static/css/main.89f85916.css",
+    "static/js/main.5d84c982.js"
   ]
 }
