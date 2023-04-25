@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/my-resume/static/css/main.89f85916.css",
-    "main.js": "/my-resume/static/js/main.5d84c982.js",
+    "main.js": "/my-resume/static/js/main.3fd11b57.js",
+    "static/media/blog.png": "/my-resume/static/media/blog.77af423ec8e41539bffd.png",
     "static/media/matrix-g7eee74277_1920.jpg": "/my-resume/static/media/matrix-g7eee74277_1920.36fd1b21350274a1896c.jpg",
     "static/media/dualsense.png": "/my-resume/static/media/dualsense.8fc823150c0eb5736b10.png",
     "static/media/tvSearch.png": "/my-resume/static/media/tvSearch.96d3337ff72b8505fa14.png",
@@ -17,10 +18,10 @@
     "static/media/email-svgrepo-com .svg": "/my-resume/static/media/email-svgrepo-com .03261afe93c6b5ea16874ea6bc138d71.svg",
     "static/media/arrow-down-svgrepo-com.svg": "/my-resume/static/media/arrow-down-svgrepo-com.4d54cb66692ea33497ae0172e6644124.svg",
     "main.89f85916.css.map": "/my-resume/static/css/main.89f85916.css.map",
-    "main.5d84c982.js.map": "/my-resume/static/js/main.5d84c982.js.map"
+    "main.3fd11b57.js.map": "/my-resume/static/js/main.3fd11b57.js.map"
   },
   "entrypoints": [
     "static/css/main.89f85916.css",
-    "static/js/main.5d84c982.js"
+    "static/js/main.3fd11b57.js"
   ]
 }
